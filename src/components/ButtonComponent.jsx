@@ -1,7 +1,9 @@
-const ButtonComponent = function(){
-return (
-    <button></button>
-)
+import React from 'react';
+
+function ButtonComponent(props) {
+  return (
+    <button>{props.text}</button>
+  );
 }
 
-export default ButtonComponent
+export default ButtonComponent;

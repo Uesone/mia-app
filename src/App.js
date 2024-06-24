@@ -1,4 +1,7 @@
 import logo from "./logo.svg";
+import React from "react";
+import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 import "./App.css";
 
 function App() {
@@ -18,6 +21,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <ButtonComponent text="Bottone" />
+        <ImageComponent
+          src="https://i.insider.com/602ee9ced3ad27001837f2ac?width=1000&format=jpeg&auto=webp"
+          alt="Rickrolld"
+          width="300px"
+          height="210px"
+        />
+      </div>
     </div>
   );
 }
