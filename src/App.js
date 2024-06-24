@@ -33,5 +33,6 @@ function App() {
     </div>
   );
 }
+/* errore di compilazione? */
 
 export default App;
