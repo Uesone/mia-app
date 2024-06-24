@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import React from "react";
 import ButtonComponent from "./components/ButtonComponent";
 import ImageComponent from "./components/ImageComponent";
 import "./App.css";
